@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'dart:async';
 
 import 'package:flutterpage/pages/onboarding_one.dart'; // For the Timer
@@ -11,8 +10,7 @@ class SplashScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Future.delayed(Duration(seconds: 5), () {
-      Navigator.pushReplacement(
-        context,
+      Navigator.pushReplacement(context,
         MaterialPageRoute(builder: (context) => OnboardingOne()),
       );
     });

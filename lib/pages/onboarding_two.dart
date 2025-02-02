@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'get_started.dart';
+import 'sign_up.dart';
 
 
 class OnboardingTwo extends StatelessWidget {
